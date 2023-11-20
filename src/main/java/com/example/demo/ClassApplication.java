@@ -36,7 +36,7 @@ public class ClassApplication implements CommandLineRunner {
 
 		System.out.printf("Pedido código %d", order.getCode());
 		System.out.println();
-		System.out.printf("Valor total = %.2f%n", orderService.total(order));
+		System.out.printf("Valor total = R$ %.2f%n", orderService.total(order));
 
 		sc.close();
 	}
